@@ -30,23 +30,6 @@ movies[, 5:7] <- sapply(movies[,5:7], function(x) { return(round(x/1000000,digit
 
 
 ##################
-# ANALYSIS
-##################
-
-# top 20 highest-grossing movies of all time
-head(movies[order(-movies$gross), ], n=20)
-
-# top 20 highest-rated movies of all time
-head(movies[order(-movies$imdb_score), ], n=20)
-
-# distribution of movie ratings
-round(prop.table(table(movies$content_rating)),digits=3) * 100
-
-# length of film-to-IMDb score
-plot(x=movies$duration, xlab="Length of film", y=movies$imdb_score, ylab="IMDb score")
-
-
-##################
 # PROBLEM: isolate the trifecta tiers of a film's success
 # 1. Audience approval (user reviews and possible correlation to IMDb score)
 # 2. Critical acclaim (critics' reviews)
