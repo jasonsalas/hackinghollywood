@@ -64,7 +64,7 @@ true.hollywood.success <- append(true.hollywood.success, commercial.success$movi
 true.hollywood.success <- as.character(true.hollywood.success[duplicated(true.hollywood.success)])
 
 # print the pared-down vector of films that appear in at least two lists
-> unique(true.hollywood.success)
+unique(true.hollywood.success)
 # [1] "The Dark Knight Rises"                             "Django Unchained"                                 
 # [3] "Skyfall"                                           "Interstellar"                                     
 # [5] "The Dark Knight"                                   "Inception"                                        
