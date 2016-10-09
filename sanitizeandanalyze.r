@@ -48,13 +48,13 @@ cor(x=movies$imdb_score, y=movies$num_user_for_reviews, method=c("spearman"))
 # 0.382183
 
 # from the correlation above, the # of users voting is more important to the IMDb score than the # of user reviews posted for the film
-head(movies[order(-movies$imdb_score, -movies$num_voted_users, -movies$num_user_for_reviews), -c(5:7,11)], n=100)
+audience.approval <- head(movies[order(-movies$imdb_score, -movies$num_voted_users, -movies$num_user_for_reviews), -c(5:7,11)], n=100)
 
 # 2. Critical acclaim: 
-head(movies[order(-movies$num_critic_for_reviews), -c(8:10)], n=100)
+critical.acclaim <- head(movies[order(-movies$num_critic_for_reviews), -c(8:10)], n=100)
 
 # 3. Commercial success
-head(movies[order(-movies$gross, -movies$net.income), -c(4, 8:11)], n=100)
+commercial.success <- head(movies[order(-movies$gross, -movies$net.income), -c(4, 8:11)], n=100)
 
 # determine which films are true successes, in terms of which movies achieve all three tiers
 true.hollywood.success <- list()
