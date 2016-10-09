@@ -1,7 +1,7 @@
 # Hacking Hollywood
 ## Determining the true success of movies in the market
 ### Motivation
-I've been playing with [this wonderful dataset on Kaggle](https://www.kaggle.com/deepmatrix/imdb-5000-movie-dataset), which lists metadata for over 5,000 movies on [IMDb](http://www.imdb.com). It's a really neat exercise with lots of applications for statistical analysis and machine learning. One aspect of the information quickly stood out at me: the need to identify exactly what movies are true successes, in terms of their theatrical runs.
+I've been playing with [this wonderful dataset on Kaggle](https://www.kaggle.com/deepmatrix/imdb-5000-movie-dataset), which lists metadata for over 5,000 movies on [IMDb](http://www.imdb.com). It's a really neat exercise with lots of applications for statistical analysis and machine learning. One aspect of the information [quickly stood out to me](https://www.kaggle.com/forums/f/1471/imdb-5000-movie-dataset/t/24086/revenue-feature-strength-and-the-almighty-imdb-score): the need to identify exactly what movies are true successes, in terms of their theatrical runs.
 
 I've always been of the opinion that the deterministic measure of any consumer product once released is assessed by the _success tiers_, being **(1) audience approval**, **(2) critical acclaim,** and **(3) commercial achievement**. This is a tough order to fill, and most movies don't even hit the mark at two criteria, much less all three. So I sought out to analyze the data, isolating each tier of success and then comparing the resultant films. 
 
