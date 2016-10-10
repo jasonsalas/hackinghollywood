@@ -6,6 +6,7 @@ I've been playing with [this wonderful dataset on Kaggle](https://www.kaggle.com
 I've always been of the opinion that the deterministic measure of any consumer product once released is assessed by the _success tiers_, being **(1) audience approval**, **(2) critical acclaim,** and **(3) commercial achievement**. This is a tough order to fill, and most movies don't even hit the mark at two criteria, much less all three. So I sought out to analyze the data, isolating each tier of success and then comparing the resultant films. 
 
 Here's [the R code](https://github.com/jasonsalas/hackinghollywood/blob/master/sanitizeandanalyze.r) that I used.
+Here's this R code [as a Kaggle kernel script](https://www.kaggle.com/jasonsalas/d/deepmatrix/imdb-5000-movie-dataset/what-films-achieve-3-tiers-of-cinematic-success).
 
 #### **[SANITZED DATASET](https://docs.google.com/spreadsheets/d/1E8Y79RIQHxjQLNxn6U8mCZsA6zVqfoBMFzeuccLnw1U/edit?usp=sharing)**
 
